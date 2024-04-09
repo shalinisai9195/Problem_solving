@@ -8,9 +8,9 @@ function fibo(num){
     fiboseries[i] = fiboseries[i-2] + fiboseries[i-1]
 
   }
-  return fiboseries
+  return fiboseries[num]
   
 }
 
-let number = 5
+let number = 20
 console.log(fibo(number))
